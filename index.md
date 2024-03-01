@@ -7,8 +7,11 @@
 
 ## Skills
 **<u>Languages</u>**: Java, JavaScript, SQL, C/C++, Dart, HTML/CSS, LaTeX, Markdown, R, R Markdown, UNIX, Assembly, Prolog.
+
 **<u>Developer Tools</u>**: Git, GitHub, VSCode, IntelliJ, Eclipse, Android Studio, Excel, DataGrip, Neo4j, Unity, Notion, BitBucket, Jira, SourceTree, Figma
+
 **<u>Frameworks</u>**: Node.js, JUnit, Flutter, PostgreSQL
+
 **<u>Interpersonal skills</u>**: Spanish, team communication, independent problem-solving, professional conduct
 
 ## Work Experience
