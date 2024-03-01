@@ -15,7 +15,7 @@
 **<u>Interpersonal skills</u>**: Spanish, team communication, independent problem-solving, professional conduct
 
 ## Work Experience
-### Software Developer <p style="text-align: right;">*(Sep 2022 – Dec 2022)*</p>
+### Software Developer *(Sep 2022 – Dec 2022)*
 #### *RTDS Technologies*
 - Developed new features and bug fixes for a large-scale project (RSCADFX rewrite)
 - Designed a feature to export simulation component files in COMTRADE and CSV formats
