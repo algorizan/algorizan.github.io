@@ -1,0 +1,7 @@
+Audience: Frank Furter
+Venue: README on GitHub Pages
+Purpose: Explain how to host a website on GitHub Pages.
+Additional purpose: Introduce and demonstrate the principles of Andrew Etter's book Modern Technical Writing.
+Desired Reaction: Frank hosts his resume on GitHub Pages.
+Vocabulary: clear, simple, technical.
+Tone: supporting,  encouraging, guiding.
