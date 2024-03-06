@@ -1,95 +1,53 @@
-# Project Title
+# Hosting Your Resume on GitHub Pages
 
-One Paragraph of the project description
+![screenshot](https://github.com/algorizan/algorizan.github.io/blob/eca3e59836a03c353066a7c3fcfe009d68cc30ac/assets/img/confetti.gif)
 
-![screenshot](https://raw.githubusercontent.com/algorizan/COMP3040_Assignment2/main/assets/img/confetti.gif)
-
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
-
-## Getting Started
+## Purpose
 
 These instructions will give you a copy of the project up and running on
 your local machine for development and testing purposes. See deployment
 for notes on deploying the project on a live system.
 
-### Prerequisites
+## Prerequisites
+This should include a resume formatted in Markdown
+- Include a link to a good Markdown tutorial under "More Resources." You do not need to explain how to use Markdown.
 
-Requirements for the software and other tools to build, test and push
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
 
-### Installing
+## Instructions
+- Use headings and numbered lists
+- Remember to use each step to explain both how to follow the tools and model Etter recommends and how to host a resume in GitHub Pages or Codeberg Pages. It's up to you whether you 1) begin with Etter's general process and then demonstrate the process with a practical step involving your resume, or 2) begin with the practical steps for hosting a resume and relate each practical step to a concept in Etter's book.
+- Add an animated gif: Include a demo using an animated gif in your README. The gif should feature your own resume (showing your own name).
 
-A step by step series of examples that tell you how to get a development
-environment running
+### Create the README File
+-> Etter's concept = Use Lightweight Markup
 
-Say what the step will be
+### Upload to GitHub
+-> Etter's concept = Use Distributed Version Control
 
-    Give the example
+###
 
-And repeat
+## More Resources
+Include a Markdown tutorial and at least three other resources.
 
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
+Credit template authors and group members
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+  - **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of
 [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
 who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
 
 ## Acknowledgments
 
   - Hat tip to anyone whose code is used
   - Inspiration
   - etc
+
+## FAQs
+Add (and answer) two FAQs, as described below:
+- A question about the overall process, such as "Why is Markdown better than a word processor?"
+- A question about the practical details, such as "Why is my resume not showing up?"
+    - You may use the example FAQs, or come up with your own.
+
