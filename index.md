@@ -22,7 +22,7 @@
 - Coordinated with the Solutions team to ensure we fulfilled the clients’ requests
 - Used JavaFX for the application’s front-end and Java for the back-end
 
-### Application Developer I *(Jan 2022 – Apr 2022)*
+### Application Developer *(Jan 2022 – Apr 2022)*
 #### *Wawanesa Insurance*
 - Developed new features and bug fixes for the Policy and Billing Center web apps, written in Gosu (Java)
 - Worked in the Vitality team, which is in charge of the most business-critical operations for the company
