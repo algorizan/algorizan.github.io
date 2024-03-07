@@ -18,14 +18,12 @@ This guide will also relate each practical step to the general principles of And
     - Learn [how to do it on VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git).
 
 
-## Instructions <!-- TODO -->
+## Instructions
 <!--
 - Use headings and numbered lists
 - Remember to use each step to explain both how to follow the tools and model Etter recommends and how to host a resume in GitHub Pages or Codeberg Pages. It's up to you whether you 1) begin with Etter's general process and then demonstrate the process with a practical step involving your resume, or 2) begin with the practical steps for hosting a resume and relate each practical step to a concept in Etter's book.
 - Add an animated gif: Include a demo using an animated gif in your README. The gif should feature your own resume (showing your own name).
 -->
-
-![screenshot](https://github.com/algorizan/algorizan.github.io/blob/eca3e59836a03c353066a7c3fcfe009d68cc30ac/assets/img/confetti.gif)
 
 ### Step 1: Create the Repository
 <!-- Etter's concept = Use Distributed Version Control -->
@@ -63,6 +61,8 @@ Etter's book emphasizes single-source publishing and static websites, so we are 
 4. Click the "Save" button.
 5. Access your resume page, which should be on your personal user page at `https://username.github.io/`, where `username` is your GitHub username. It might take a few minutes to be accessible.
 
+Here is a video demo of what it looks like to commit your changes in VS Code, push them to GitHub, and opening the hosted resume from your repository.
+![screencapture](https://github.com/algorizan/algorizan.github.io/blob/main/assets/img/screencapture.gif)
 
 ## More Resources
 <!-- Include a Markdown tutorial and at least three other resources. -->
@@ -73,18 +73,15 @@ Etter's book emphasizes single-source publishing and static websites, so we are 
 - [Adding a theme to your GitHub Pages site using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
 
 
-## Authors & Acknowledgments <!-- TODO -->
-<!-- Credit template authors and group members -->
+## Authors & Acknowledgments
 
 - **Izan Cuetara Diez** - *Main Author* - [@algorizan](https://github.com/algorizan)
 - **Billie Thompson** - *Provided [README Template](https://github.com/PurpleBooth/a-good-readme-template)* - [@PurpleBooth](https://github.com/PurpleBooth)
 - **Dean Attali** - *Provided [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) theme* - [@dattali](https://github.com/daattali)
 
-
-
 ## FAQs <!-- TODO -->
-Add (and answer) two FAQs, as described below:
+<!-- Add (and answer) two FAQs, as described below:
 - A question about the overall process, such as "Why is Markdown better than a word processor?"
 - A question about the practical details, such as "Why is my resume not showing up?"
-    - You may use the example FAQs, or come up with your own.
+    - You may use the example FAQs, or come up with your own. -->
 
