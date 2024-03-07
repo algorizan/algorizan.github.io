@@ -64,6 +64,77 @@ Etter's book emphasizes single-source publishing and static websites, so we are 
 Here is a video demo of what it looks like to commit your changes in VS Code, push them to GitHub, and opening the hosted resume from your repository.
 ![screencapture](https://github.com/algorizan/algorizan.github.io/blob/main/assets/img/screencapture.gif)
 
+### Step 4: Formatting Your Website With Jekyll
+
+*Modern Technical Writing* also suggests using a static website formatter to make your website more aesthetically appealing. In this guide, we will be using Jekyll since GitHub Pages is setup to work with it by default.
+
+1. Create a file named `_config.yml` in your repository where you will specify the Jekyll theme you want to use.
+2. Specify your favourite theme in this file. In this guide, I will show you these two examples:
+    - For one of the basic default Jekyll themes, simply add this line in your file: `theme: jekyll-theme-minimal`
+    - For a third-party theme, you can use Dean Attali's theme: `remote_theme: daattali/beautiful-jekyll`
+
+Lastly, you'll need to create a GitHub Actions workflow to deploy your website formatted with Jekyll. To do this, you can add the default workflow from GitHub, which I will provide in this guide for convenience.
+
+1. Create a folder named `.github` in your repository if it's not there already.
+2. Create a `workflows` folder inside the `.github` folder.
+3. Create a file named `jekyll-gh-pages.yml` inside the `workflows` folder and paste the following contents into that file:
+
+```yml
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+Finally, make sure to commit and push all your changes and wait for GitHub to deploy your website. Then you should be able to see it formatted with the theme you specified.
+
 ## More Resources
 <!-- Include a Markdown tutorial and at least three other resources. -->
 - [Markdown tutorial](https://www.markdowntutorial.com/)
