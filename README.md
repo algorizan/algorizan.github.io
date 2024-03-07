@@ -79,9 +79,14 @@ Here is a video demo of what it looks like to commit your changes in VS Code, pu
 - **Billie Thompson** - *Provided [README Template](https://github.com/PurpleBooth/a-good-readme-template)* - [@PurpleBooth](https://github.com/PurpleBooth)
 - **Dean Attali** - *Provided [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) theme* - [@dattali](https://github.com/daattali)
 
-## FAQs <!-- TODO -->
+## FAQs
 <!-- Add (and answer) two FAQs, as described below:
 - A question about the overall process, such as "Why is Markdown better than a word processor?"
 - A question about the practical details, such as "Why is my resume not showing up?"
     - You may use the example FAQs, or come up with your own. -->
 
+### Why use Markdown and not HTML for making a website?
+Markdown is a lot simpler and more human-readable than HTML, and it's much easier to learn for beginners. Therefore, it's a better tool for people that don't have experience building websites and just want to host their resume without difficulty.
+
+### Why is my resume not showing up?
+It takes some time for GitHub to detect the changes and publish your website, so you may need to wait up to 10 minutes to see your resume. If it's still not appearing, check in your repository's settings under GitHub Pages, it should have a message there saying that your website is live and the link to follow.
