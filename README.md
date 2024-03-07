@@ -8,6 +8,7 @@ This guide will also relate each practical step to the general principles of And
 ## Prerequisites
 <!-- This should include a resume formatted in Markdown
 - Include a link to a good Markdown tutorial under "More Resources." You do not need to explain how to use Markdown. -->
+
 - **GitHub Account**: If you haven't yet, create a [GitHub account](https://github.com/join).
 - **Text Editor**: Use a text editor of your choice.
     - This guide will use [Visual Studio Code](https://code.visualstudio.com/).
@@ -26,27 +27,41 @@ This guide will also relate each practical step to the general principles of And
 
 ![screenshot](https://github.com/algorizan/algorizan.github.io/blob/eca3e59836a03c353066a7c3fcfe009d68cc30ac/assets/img/confetti.gif)
 
-### Step 1: Create the README and Resume Files <!-- TODO -->
+### Step 1: Create the Repository
+<!-- Etter's concept = Use Distributed Version Control -->
+
+First, we will create a repository for our project on GitHub, which relates to the concept of "using distributed version control" in Etter's book.
+
+1. Log in to [GitHub](https://github.com/login).
+2. Create a [new repository](https://github.com/new) in your GitHub account named `username.github.io`, where "username" is your actual GitHub username.
+3. Click the "Code" button on your new repository's page and copy the URL from your browser.
+3. Create a folder on your computer where you want to store the repository, and give it the same name as the repository.
+4. Right-click on the folder and click "Open with Code" to open the folder with VS Code.
+5. Click on the "Terminal" button in the top bar on VS Code and select "New Terminal".
+6. Type `git clone <repository URL>` (where `<repository URL>` is the URL you copied earlier from your GitHub repository) into the terminal and press Enter.
+
+### Step 2: Create the README and Resume Files
 <!-- Etter's concept = Use Lightweight Markup -->
 
-Firstly, using Andrew Etter's concept of "using Lightweight Markup", we are going to create our README file and resume using GitHub Flavoured Markdown.
+Next, using Andrew Etter's concept of "using Lightweight Markup", we are going to create our README file and resume using GitHub Flavoured Markdown.
 
 1. Create a file called `README.md` in the top level (root) of your directory.
 2. Add a title and a short paragraph describing the purpose of your project (i.e., hosting your resume).
 3. Save your README file for now, you can add anything else you want later on.
 4. Create a new file for your resume, but name it `index.md`. This is so that GitHub knows this is the file you want to host as your website's main page.
 5. Add all your resume information to the `index.md` file in GitHub Flavoured Markdown and save it. Don't worry about making it perfect now, you'll be able to edit it as much as you want later.
+6. Commit all your files using git or using VS Code's interface as you learned in the VS Code Git tutorial from the Prerequisites section above.
+7. Push your changes using the interface, or simply entering `git push` into the terminal.
 
-### Step 2: Upload to GitHub <!-- TODO -->
-<!-- Etter's concept = Use Distributed Version Control -->
+### Step 3: Enable GitHub Pages
 
-Next, we will upload our project to GitHub, will relates to the concept of "using distributed version control" in Etter's book.
+Etter's book emphasizes single-source publishing and static websites, so we are going to host our resume with GitHub Pages.
 
-2. Create a [new repository](https://github.com/new) in your GitHub account named `username.github.io`, where "username" is your actual GitHub username.
-3.
-
-### Step 3:  <!-- TODO -->
-1.
+1. Click on the "Settings" tab on your GitHub repository.
+2. Scroll down to the "GitHub Pages" section.
+3. Under "Source", select the branch where your README and index files are located (usually "main" or "master").
+4. Click the "Save" button.
+5. Access your resume page, which should be on your personal user page at `https://username.github.io/`, where `username` is your GitHub username. It might take a few minutes to be accessible.
 
 
 ## More Resources
