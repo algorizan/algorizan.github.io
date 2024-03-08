@@ -14,7 +14,7 @@ This guide will also relate each practical step to the general principles of And
     - This guide will use [Visual Studio Code](https://code.visualstudio.com/).
 - **Resume**: You'll need your resume formatted in Markdown.
     - Learn about [GitHub Flavoured Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
-- **Git**: have git set up with your text editor.
+- **Git**: Have git set up with your text editor.
     - Learn [how to do it on VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git).
 
 
@@ -149,6 +149,8 @@ Finally, make sure to commit and push all your changes and wait for GitHub to de
 - **Izan Cuetara Diez** - *Main Author* - [@algorizan](https://github.com/algorizan)
 - **Billie Thompson** - *Provided [README Template](https://github.com/PurpleBooth/a-good-readme-template)* - [@PurpleBooth](https://github.com/PurpleBooth)
 - **Dean Attali** - *Provided [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) theme* - [@dattali](https://github.com/daattali)
+- **Bricz Cruz** - Peer Reviewed
+- **NhatAnh Nguyen** - Peer Reviewed
 
 ## FAQs
 <!-- Add (and answer) two FAQs, as described below:
