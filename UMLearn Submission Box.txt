@@ -5,3 +5,9 @@ Additional purpose: Introduce and demonstrate the principles of Andrew Etter's b
 Desired Reaction: Frank hosts his resume on GitHub Pages.
 Vocabulary: clear, simple, technical.
 Tone: supporting,  encouraging, guiding.
+
+Hosted README: https://github.com/algorizan/algorizan.github.io
+
+Hosted Resume: https://algorizan.github.io/
+
+Software stack: Markdown, VS Code, GitHub Pages, Jekyll.
